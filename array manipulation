@@ -10,7 +10,7 @@ def reverse_array(arr):
         end -= 1
 
 
-arr = list(map(int, input("Enter numbers separated by commas: ").split(',')))
+arr = list(map(int, input("Enter numbers: ").split(',')))
 
 reverse_array(arr)
 print("Reversed array:", arr)
